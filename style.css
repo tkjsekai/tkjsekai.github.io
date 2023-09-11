@@ -1,8 +1,24 @@
 body {
-    background-image: url("tkj3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: red;
 }
-h1 {
-    color: green;
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
