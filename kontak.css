@@ -63,3 +63,12 @@ a{
 .wrapper .button:nth-child(1) span{
   color: #E1306C;
 }
+.kembali {
+  font-size: 25px;
+  text-emphasis: none;
+  text-align: center;
+  margin-top: 30px;
+}
+.kembali:hover{
+  color: aqua;
+}
