@@ -1,5 +1,7 @@
 body {
-    background-color: red;
+    background-image: url("tkj3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1 {
     color: green;
