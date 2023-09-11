@@ -26,26 +26,19 @@ nav ul li {
     margin-right: 20px;
 }
 
-.ten {
-        padding: 20px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 300px;
-        width: 500px;
-        border-radius: 20%;
-        border-style: solid;
+.teks {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: skyblue;
+    max-width:100%;
+    text-align: center;
 }
 
-.eleven {
-        padding: 20px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 300px;
-        width: 500px;
-        border-radius: 20%;
-        border-style: solid;
+.logo {
+    width:  20%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: aquamarine;
 }
 
 footer {
