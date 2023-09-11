@@ -1,7 +1,11 @@
 body {
     background-image: url("tkj3.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
 }
 
 header {
