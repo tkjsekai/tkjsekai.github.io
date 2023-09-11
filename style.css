@@ -4,9 +4,21 @@ body {
     background-size: cover;
 }
 
+header {
+    background-color: #333;
+    color: aliceblue;
+    text-align: center;
+}
+
+.atas {
+    background-color: bisque;
+}
+
 nav ul {
+    text-align: center;
     list-style: none;
     padding: 0;
+    background-color: #333;
 }
 
 nav ul li {
@@ -14,8 +26,26 @@ nav ul li {
     margin-right: 20px;
 }
 
-main {
-    padding: 20px;
+.ten {
+        padding: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 300px;
+        width: 500px;
+        border-radius: 20%;
+        border-style: solid;
+}
+
+.eleven {
+        padding: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 300px;
+        width: 500px;
+        border-radius: 20%;
+        border-style: solid;
 }
 
 footer {
