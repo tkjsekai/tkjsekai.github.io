@@ -39,15 +39,24 @@ footer {
     padding: 10px;
 }
 
+a:active {
+    text-decoration: underline;
+    color: red;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
 a {
-    color: skyblue;
+    color: rgb(251, 251, 251);
     text-decoration: none;
 }
 
 .content{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    color: skyblue;
+    color: rgb(0, 0, 0);
     max-width: 100%;
     display: flex;
     justify-content: center;
@@ -60,7 +69,7 @@ a {
     height: auto;
     border-radius: 50%;
     border-style: solid;
-    border-color: aquamarine;
+    border-color: rgb(0, 0, 0);
 }
 
 .dv2{
@@ -69,7 +78,7 @@ a {
     height: auto;
     border-radius: 50%;
     border-style: solid;
-    border-color: aquamarine;
+    border-color: rgb(0, 0, 0);
 }
 
 .imdev1 {

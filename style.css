@@ -54,7 +54,7 @@ nav ul li {
     height: auto;
     border-radius: 50%;
     border-style: solid;
-    border-color: aquamarine;
+    border-color: rgb(7, 7, 7);
 }
 
 footer {
@@ -64,6 +64,11 @@ footer {
     padding: 10px;
 }
 a {
-    color: skyblue;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+}
+
+a:active{
+    text-decoration: underline;
+    color: red;
 }

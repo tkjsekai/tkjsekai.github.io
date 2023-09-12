@@ -24,12 +24,13 @@ nav ul {
     list-style: none;
     padding: 0;
     background-color: #333;
-    font-family: Georgia, 'Times New Roman', Times, serif;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav ul li {
     display: inline;
     margin-right: 20px;
+    color: #fff;
 }
 
 footer {
@@ -40,6 +41,14 @@ footer {
 }
 
 a {
-    color: skyblue;
+    color: fff;
     text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: underline;
+    color: red;
 }
